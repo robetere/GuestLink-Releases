@@ -2,7 +2,7 @@
 
 An independent, lightweight Android utility for authorised access to the Airbus-Guest Wi-Fi network.
 
-[**Download APK releases**](https://github.com/robetere/GuestLink-Releases/releases) · [Release history](https://github.com/robetere/GuestLink-Releases/releases)
+[**Download APK releases**](https://github.com/robetere/GuestLink-Releases/releases) · [Licence](LICENSE)
 
 ## Downloads
 
@@ -51,7 +51,7 @@ GuestLink is experimental. The application and its automated builds are under de
 
 ## Licence and authorised use
 
-GuestLink is proprietary software, intended for free use by authorised recipients under its limited private-use licence. Public availability of an APK does not grant unrestricted redistribution, resale or access to its source code. Consult the licence supplied with the application before installation or use.
+GuestLink is proprietary software distributed under the [Limited Private-Use Licence v1.1](LICENSE). Invited or otherwise authorised recipients may download official releases for free personal use and private testing. Public download availability does not itself grant permission to use the software. Sharing the official release link is permitted; unauthorised redistribution of APK copies, resale and source-code distribution are prohibited. Read the licence before installation or use.
 
 Use GuestLink only for your own authorised network access and in accordance with applicable network terms, employer policies and law.
 
