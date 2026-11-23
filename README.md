@@ -6,11 +6,11 @@ An independent, lightweight Android utility for authorised access to the Airbus-
 
 ## Downloads
 
-This repository is the distribution channel for GuestLink. It contains release information and, when published, signed Android APKs. The application source code is private.
+This repository is the official GuestLink distribution channel. It contains published, permanently signed Android APKs and release notes. The application source code is private.
 
 **Minimum requirement:** Android 9 (API 28).
 
-The first public signed release is being prepared. If the Releases page is empty, no public APK has been published yet.
+**Latest signed APK:** [See the current published GuestLink release](https://github.com/robetere/GuestLink-Releases/releases/latest). Choose the APK asset for installation. Earlier releases remain available for reference.
 
 ## Features
 
@@ -20,11 +20,13 @@ The first public signed release is being prepared. If the Releases page is empty
 - Adaptive single-SIM and dual-SIM configuration, including active eSIMs reported by Android.
 - SIM selection based on configured preference, network service and signal quality.
 - Encrypted local credential storage using Android Keystore.
-- English and German interfaces, with automatic device-language selection.
+- English, German, French, Spanish and Italian interfaces, with automatic device-language selection.
 - Light, dark and system appearance settings.
 - Optional expiry reminders for long-term credentials only.
 - Quick Settings shortcut and local connection diagnostics.
-- Optional update checks against this repository's public release information.
+- Optional verified in-app update downloads using SHA-256, package identity and signing-certificate checks. Android still asks before installation.
+- Optional bug report and feature-request drafts that open in GitHub for the user to review and submit.
+- Optional Ko-fi donations and a self-declared Supporter label; all functionality remains free.
 
 ## Installation and updates
 
@@ -33,9 +35,9 @@ The first public signed release is being prepared. If the Releases page is empty
 3. Install the APK using Android's system installer. Only grant permissions you need and follow your device's security guidance.
 4. Complete the setup wizard using your own registration details.
 
-GuestLink can check for newer releases when opened, or manually from Settings. Installation remains user-controlled.
+GuestLink can check for newer releases when opened or manually from Settings. For eligible releases, GuestLink downloads and validates the APK before handing installation to Android. Installation remains user-controlled.
 
-Official release APKs will use a consistent signing identity. A previous debug-signed test installation may require removal before installing the first permanently signed release. Uninstalling deletes locally stored app data, so retain your own registration details and original credential message if needed.
+Official release APKs use a consistent signing identity. A previous debug-signed test installation may require removal before installing the first permanently signed release. Uninstalling deletes locally stored app data, so retain your own registration details and original credential message if needed.
 
 ## Permissions and privacy
 
